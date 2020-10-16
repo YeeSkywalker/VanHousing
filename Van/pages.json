@@ -1,0 +1,100 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabBar/main",
+			"style": {
+				"navigationBarTitleText": "HomeApp"
+			}
+		},
+		{
+			"path":"pages/tabBar/map",
+			"style":{
+				"navigationBarTitleText":"map"
+			}
+		},
+		{
+			"path":"pages/tabBar/liveChat",
+			"style":{
+				"navigationBarTitleText":"Live Chat"
+			}
+		},
+		{
+			"path":"pages/tabBar/MLSListings",
+			"style":{
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#fff",
+						"backgroundColor": "#3d7cc8",
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "MLS®#/Adress",
+							"autoFocus": true
+						},
+						"buttons":[{
+							"type":"favorite"
+						},
+						{
+							"type":"share"
+						}]
+					}
+				}
+			}
+		},
+		
+		{
+			"path":"pages/tabBar/House",
+			"style":{
+				"navigationBarTitleText":"",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"type":"menu"
+						},
+						{
+							"type":"share"
+						},
+						{
+							"type":"favorite"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3d7cc8",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#bab9c3",
+		"selectedColor": "#3d7cc8",
+		"borderStyle":"black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/tabBar/main",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/home2.png",
+			"text":"Home"
+		},
+		{
+			"pagePath":"pages/tabBar/map",
+			"iconPath": "static/img/map.png",
+			"selectedIconPath": "static/img/map2.png",
+			"text":"Map"
+		}, 
+		{
+			"pagePath":"pages/tabBar/liveChat",
+			"iconPath": "static/img/news.png",
+			"selectedIconPath": "static/img/news2.png",
+			"text":"Chat"
+		},
+		{
+			"iconPath":"static/img/user.png",
+			"selectedIconPath":"static/img/user2.png",
+			"text":"Me"
+		}]
+	}
+}

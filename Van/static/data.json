@@ -1,0 +1,12 @@
+{
+	"result": {
+		"stat": "1",
+		"data": [{
+			"houseID":"000-001",
+			"price": "1800000",
+			"langtitude": "49.282875",
+			"longtitude": "123.120464",
+			"houseImg": "../../static/img/000-001.jpg"
+		}]
+	}
+}
